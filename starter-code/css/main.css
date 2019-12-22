@@ -1,10 +1,104 @@
-/*
-Colors to use:
-dark blue: #06365f
-light blue: #1c5380
-*/
+html {
+  font-size: 10px;
+  font-family: Geneva, Verdana, sans-serif;
+}
 
 body {
-  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+  background: #3f729b;
+}
+
+.main-container {
+  padding: 5rem 20rem 0rem 20rem;
+  display: flex;
+  justify-content: center;
+}
+
+.phones-and-info {
+  display: flex;
+}
+
+.phones-container {
+  padding: 0rem 5rem;
+}
+
+.phones-container img {
+  width: 30rem;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #3f729b;
+  padding: 1rem 0 2.5rem 0;
+}
+
+.instagram-image-container img {
+  width: 35rem;
+}
+
+.button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(45deg, #007bb5, rgb(151, 172, 231));
+  height: 4em;
+  padding: 0rem 0.5rem;
+  margin-right: 1rem;
+  border: 2px solid  rgb(13, 105, 224);
+}
+
+.button img {
+  width: 2.3rem;
+  margin-right: 1rem;
+}
+
+.button p {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.middle {
+  padding: 2.3rem 4.5rem;
+  background: white;
+}
+
+.middle h1 {
+  color: rgb(11, 78, 139);
+  font-size: 2.4rem;
+  width: 25rem;
+  font-weight: bold;
+  line-height: 2.7rem;
+  margin-bottom: 2rem;
+}
+
+.middle p {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  line-height: 2rem;
+}
+
+.bottom {
+  padding: 2rem;
+  background: white;
+}
+
+.bottom img {
+  margin-left: 2rem;
+}
+
+footer {
+  position: absolute;
+  bottom: 0; 
+  padding-bottom: 4rem;      
+}
+
+footer span {
+  font-size: 1.4rem;
+  margin-left: 2rem;
+  color: rgb(8, 56, 100);
+}
+
+.final-span {
+  color: grey;
 }
